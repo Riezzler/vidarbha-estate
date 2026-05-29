@@ -1,0 +1,6 @@
+{
+  "name": "Vidarbha Estate",
+  "description": "Vidarbha Estate - Premier luxury real estate discovery engine specialized in high-end Vidarbha villas, premium penthouses, and elite commercial spaces with live MahaRERA certifications and expert guidance by Anurag Kewat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
