@@ -620,12 +620,6 @@ export default function App() {
                 {/* 4. Agent Info Card block exactly identical */}
                 <div className="rounded-2xl border border-gray-100/85 bg-brand-gray-light/60 p-4 flex items-center justify-between">
                   <div className="flex items-center gap-3">
-                    <img
-                      src={selectedProperty.agent.avatar}
-                      alt={selectedProperty.agent.name}
-                      referrerPolicy="no-referrer"
-                      className="h-12 w-12 rounded-full object-cover border-2 border-white shadow-sm select-none"
-                    />
                     <div>
                       <p className="text-xs text-gray-400 font-mono tracking-wider font-medium uppercase">
                         Advisor

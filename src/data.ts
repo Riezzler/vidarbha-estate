@@ -18,8 +18,8 @@ export const INITIAL_PROPERTIES: Property[] = [
     agent: {
       name: 'Anurag Kewat',
       avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80',
-      phone: '+91 91234 56789',
-      email: 'anurag.k@vidarbhaestate.in',
+      phone: '9545160270',
+      email: 'anuragkewat265@gmail.com',
       rating: 5.0
     },
     isSaved: false
@@ -39,10 +39,10 @@ export const INITIAL_PROPERTIES: Property[] = [
     type: 'Penthouse',
     imageUrl: 'https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=800&q=80',
     agent: {
-      name: 'Nikhil Deshmukh',
-      avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80',
-      phone: '+91 94221 87654',
-      email: 'nikhil.d@vidarbhaestate.in',
+      name: 'Anurag Kewat',
+      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80',
+      phone: '9545160270',
+      email: 'anuragkewat265@gmail.com',
       rating: 4.9
     },
     isSaved: true
@@ -64,8 +64,8 @@ export const INITIAL_PROPERTIES: Property[] = [
     agent: {
       name: 'Anurag Kewat',
       avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80',
-      phone: '+91 91234 56789',
-      email: 'anurag.k@vidarbhaestate.in',
+      phone: '9545160270',
+      email: 'anuragkewat265@gmail.com',
       rating: 5.0
     },
     isSaved: false
@@ -85,10 +85,10 @@ export const INITIAL_PROPERTIES: Property[] = [
     type: 'Apartment',
     imageUrl: 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=800&q=80',
     agent: {
-      name: 'Payal Gokhale',
-      avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&h=150&q=80',
-      phone: '+91 98900 11223',
-      email: 'payal.g@vidarbhaestate.in',
+      name: 'Anurag Kewat',
+      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80',
+      phone: '9545160270',
+      email: 'anuragkewat265@gmail.com',
       rating: 4.8
     },
     isSaved: false
@@ -108,10 +108,10 @@ export const INITIAL_PROPERTIES: Property[] = [
     type: 'House',
     imageUrl: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80',
     agent: {
-      name: 'Nikhil Deshmukh',
-      avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&h=150&q=80',
-      phone: '+91 94221 87654',
-      email: 'nikhil.d@vidarbhaestate.in',
+      name: 'Anurag Kewat',
+      avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80',
+      phone: '9545160270',
+      email: 'anuragkewat265@gmail.com',
       rating: 4.9
     },
     isSaved: false
@@ -133,8 +133,8 @@ export const INITIAL_PROPERTIES: Property[] = [
     agent: {
       name: 'Anurag Kewat',
       avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&h=150&q=80',
-      phone: '+91 91234 56789',
-      email: 'anurag.k@vidarbhaestate.in',
+      phone: '9545160270',
+      email: 'anuragkewat265@gmail.com',
       rating: 5.0
     },
     isSaved: false

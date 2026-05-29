@@ -126,12 +126,6 @@ export default function ContactAgentDrawer({ property, isOpen, onClose }: Contac
             {/* Header */}
             <div className="p-5 border-b border-gray-100 flex items-center justify-between bg-brand-beige">
               <div className="flex items-center gap-3">
-                <img
-                  src={property.agent.avatar}
-                  alt={property.agent.name}
-                  referrerPolicy="no-referrer"
-                  className="w-12 h-12 rounded-full object-cover border-2 border-white shadow-sm"
-                />
                 <div>
                   <h4 className="font-display font-semibold text-brand-charcoal text-base">{property.agent.name}</h4>
                   <p className="text-xs text-gray-500 flex items-center gap-1">
@@ -240,16 +234,20 @@ export default function ContactAgentDrawer({ property, isOpen, onClose }: Contac
               {/* Phone & Email Quick Access Buttons */}
               <div className="grid grid-cols-2 gap-2 text-center text-xs pt-1">
                 <a
-                  href={`tel:${property.agent.phone}`}
-                  className="flex items-center justify-center gap-1.5 py-2 rounded-lg bg-emerald-50 text-emerald-800 hover:bg-emerald-100 transition-colors font-medium border border-emerald-200"
+                  href="tel:9545160270"
+                  className="flex items-center justify-center gap-1.5 py-2 px-1 rounded-lg bg-emerald-50 text-emerald-800 hover:bg-emerald-100 transition-colors font-medium border border-emerald-200 select-all"
+                  title="Call 9545160270"
                 >
-                  <Phone size={12} /> Call Advisor
+                  <Phone size={12} className="flex-shrink-0" /> Call: 9545160270
                 </a>
                 <a
-                  href={`mailto:${property.agent.email}`}
-                  className="flex items-center justify-center gap-1.5 py-2 rounded-lg bg-blue-50 text-blue-800 hover:bg-blue-100 transition-colors font-medium border border-blue-200"
+                  href={`https://mail.google.com/mail/?view=cm&fs=1&to=anuragkewat265@gmail.com`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-1.5 py-2 px-1 rounded-lg bg-blue-50 text-blue-800 hover:bg-blue-100 transition-colors font-medium border border-blue-200 truncate select-all"
+                  title="Email anuragkewat265@gmail.com"
                 >
-                  <Mail size={12} /> Email Advisor
+                  <Mail size={12} className="flex-shrink-0" /> anuragkewat265@gmail.com
                 </a>
               </div>
             </div>
