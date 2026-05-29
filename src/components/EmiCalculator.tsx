@@ -194,7 +194,7 @@ export default function EmiCalculator({ property, isOpen, onClose }: EmiCalculat
               </p>
               <div className="bg-emerald-50/50 p-4 rounded-xl text-left text-xs text-emerald-800 space-y-1 max-w-md mx-auto">
                 <p>✓ <strong>Fast-track verification</strong> launched for Anurag Kewat (anurag.k@vidarbhaestate.in).</p>
-                <p>✓ Current selected agent <strong>{property.agent.name}</strong> has been notified of your priority financing index.</p>
+                <p>✓ Current selected advisor <strong>{property.agent.name}</strong> has been notified of your priority financing index.</p>
               </div>
               <button
                 onClick={onClose}

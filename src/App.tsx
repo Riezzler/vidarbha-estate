@@ -628,7 +628,7 @@ export default function App() {
                     />
                     <div>
                       <p className="text-xs text-gray-400 font-mono tracking-wider font-medium uppercase">
-                        Agent
+                        Advisor
                       </p>
                       <h4 className="font-display font-semibold text-sm text-brand-charcoal">
                         {selectedProperty.agent.name}

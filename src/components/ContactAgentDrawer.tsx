@@ -135,7 +135,7 @@ export default function ContactAgentDrawer({ property, isOpen, onClose }: Contac
                 <div>
                   <h4 className="font-display font-semibold text-brand-charcoal text-base">{property.agent.name}</h4>
                   <p className="text-xs text-gray-500 flex items-center gap-1">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" /> Active Agent • ⭐ {property.agent.rating} Rating
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" /> Active Advisor • ⭐ {property.agent.rating} Rating
                   </p>
                 </div>
               </div>
@@ -243,13 +243,13 @@ export default function ContactAgentDrawer({ property, isOpen, onClose }: Contac
                   href={`tel:${property.agent.phone}`}
                   className="flex items-center justify-center gap-1.5 py-2 rounded-lg bg-emerald-50 text-emerald-800 hover:bg-emerald-100 transition-colors font-medium border border-emerald-200"
                 >
-                  <Phone size={12} /> Call Agent
+                  <Phone size={12} /> Call Advisor
                 </a>
                 <a
                   href={`mailto:${property.agent.email}`}
                   className="flex items-center justify-center gap-1.5 py-2 rounded-lg bg-blue-50 text-blue-800 hover:bg-blue-100 transition-colors font-medium border border-blue-200"
                 >
-                  <Mail size={12} /> Email Agent
+                  <Mail size={12} /> Email Advisor
                 </a>
               </div>
             </div>
